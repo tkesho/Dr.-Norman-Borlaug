@@ -1,0 +1,106 @@
+// <import files>
+	@import 'nullstyle.scss';
+// </import files>
+
+
+// <mixins>
+
+// </mixins>
+
+
+// <import fonts>
+	@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+// </import fonts>
+
+body {
+	font-family: Roboto, monospace;
+	background-color: #eeeeee;
+	font-size: 15px;
+}
+main .main__title {
+	margin: 30px 0px 0px 0px;
+	text-align: center;
+	color: #333;
+	line-height: 1.5;
+	letter-spacing: 2px;
+	font-size: 30px;
+}
+main .main__subtitle {
+	text-align: center;
+	margin: 16px;
+	color: #4c4c4c;
+	font-size: 20px;
+}
+main .main__img {
+	margin: 20px;
+	background-color: #fff;
+	padding: 20px 0;
+}
+.image {
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin: 0 auto;
+}
+.img__subtitle {
+	text-align: center;
+	color: #4c4c4c;
+	margin-top: 20px;
+	font-weight: 300;
+}
+li {
+	margin-bottom: 17px;
+	font-weight: 300;
+	color: #333;
+	font-size: 15px;
+}
+
+.container {
+	width: 650px;
+	margin: 0px auto;
+}
+.list__title {
+	text-align: center;
+	margin: 50px 0;
+	color: #333;
+	font-size: 1.17em;
+	font-size: 25px;
+}
+.main__list {
+	font-size: 20px;
+}
+.footer {
+	margin: 40;
+}
+.footer__text {
+	margin: 40px 0px 0px 0px;
+	color: #4c4c4c;
+}
+.footer__link {
+	text-align: center;
+	margin: 20px 0px 0px 0px;
+	font-size: 22px;
+
+	a{
+		font-size: 22px;
+	}
+}
+
+
+@media screen and (max-width:700px){
+	.container{
+		width:500px;
+	}
+}
+
+@media screen and (max-width:550px){
+	.container{
+		width:300px;
+	}
+}
+
+@media screen and (max-width:400px){
+	.container{
+		width:300px;
+	}
+}
